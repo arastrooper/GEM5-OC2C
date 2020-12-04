@@ -1,0 +1,2 @@
+/home/server-1/samgemheterogarnet/gem5/build/ARM/gem5.opt /home/server-1/samgemheterogarnet/gem5/configs/example/fs.py --script=/home/server-1/samgemheterogarnet/parsec_rcs/blackscholes_simsmall_8.rcS --kernel=/home/server-1/samgemheterogarnet/aarch/binaries/vmlinux --machine-type=VExpress_GEM5_V1 --dtb-file=/home/server-1/samgemheterogarnet/aarch/armv8_gem5_v1_8cpu.dtb -n 8 --disk-image=/home/server-1/samgemheterogarnet/aarch/disks/aarch64-ubuntu-trusty-headless.img --bootloader=/home/server-1/samgemheterogarnet/aarch/binaries/boot_emm.arm64 
+
