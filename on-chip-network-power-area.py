@@ -5,10 +5,7 @@ import sys
 import subprocess
 import os
 
-# Compile DSENT to generate the Python module and then import it.
-# This script assumes it is executed from the gem5 root.
-# print("Attempting compilation")
-# from subprocess import call
+
 
 # src_dir = 'ext/dsent'
 # build_dir = 'build/ext/dsent'
@@ -180,7 +177,7 @@ def parseStats(stats_file, config, router_config_file, link_config_file,
 # This script parses the config.ini and the stats.txt from a run and
 # generates the power and the area of the on-chip network using DSENT
 def main():
-    if len(sys.argv) != 5:
+    if len(sys.argv) != 15:
         print("Usage: ", sys.argv[0], " <gem5 root directory> " \
               "<simulation directory> <router config file> <link config file>")
         exit(-1)
